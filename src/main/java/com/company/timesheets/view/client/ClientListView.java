@@ -9,6 +9,7 @@ import io.jmix.flowui.view.*;
 @ViewController("ts_Client.list")
 @ViewDescriptor("client-list-view.xml")
 @LookupComponent("clientsDataGrid")
+@PrimaryLookupView(Client.class)
 @DialogMode(width = "64em")
 public class ClientListView extends StandardListView<Client> {
 
