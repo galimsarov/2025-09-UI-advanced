@@ -50,7 +50,6 @@
                 </actions>
             </entityPicker>
             <entityComboBox id="taskField"
-                            itemsContainer="tasksDc"
                             property="task">
                 <prefix>
                     <icon icon="FILE_O"/>
